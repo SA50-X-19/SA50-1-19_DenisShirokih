@@ -15,7 +15,7 @@
 }
 
 .background {
-  background-image: url(Rectangle.jpg);
+  background-image: url(fox.jpg);
   width: 100%;
   max-width: 1440px;
   height: 780px;
@@ -341,4 +341,110 @@ input {
   flex-direction: column;
   justify-content:space-around;
   align-items: center;
+}
+
+.wildlife-footer {
+  z-index: -1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #02160b;
+}
+
+.picture__footer {
+  width: 1440px;
+  height: 360px;
+  background-image: url(footer.jpg);
+  display: flex;
+  align-items: center;
+}
+
+.left__footer {
+  display: flex;
+  width: 480px;
+  justify-content: center;
+}
+
+.logo__footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 210px;
+  justify-content: space-between;
+  -webkit-transition: 400ms ease;
+}
+
+.menu__logo__footer {
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color:#F7F7F7;
+  height: 60px;
+  width: 155px;
+  text-decoration: none;
+}
+
+.middle__footer {
+  width: 480px;
+  display: flex;
+  justify-content: center;
+}
+
+.ul__footer {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li__footer {
+  display: inline;
+  color: #F7F7F7;
+}
+
+.right__footer {
+  display: flex;
+  width: 480px;
+  justify-content: center;
+}
+
+.menu__links__footer {
+  text-decoration: none ;
+  font-family: Open Sans;
+  font-size: 26px;
+  font-style: normal;
+  -webkit-transition: 200ms ease;
+} 
+
+.ul__footer__right {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__links__footer:hover {
+  transition: 200ms;
+  transform:translateY(-5px)
+}
+
+.menu__links__footer__right:hover {
+  transform: 500ms;
+  transform: rotate(720deg)
+}
+
+.logo_foot:hover {
+  transition: 600ms;
+  transform:rotate(720deg)
+}
+
+.menu__logo__footer:hover {
+  transition: 200ms;
+  transform:translateY(-5px)
+}
+
+.li__footer__right:hover {
+  transition: 600ms;
+  transform:rotate(720deg)
 }
